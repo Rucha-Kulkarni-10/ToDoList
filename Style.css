@@ -1,0 +1,211 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    text-align: center;
+    width: 700px;
+}
+
+h1{
+    background-color: pink;
+
+}
+
+.todo{
+    background-color: #fff;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#app {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.area{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+
+button {
+    padding: 10px 16px;
+    flex: 1;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#btn
+{
+    position: fixed;
+    right: 400px;
+}
+
+#btn1
+{
+    position: fixed;
+    right: 500px;
+}
+
+#btn2
+{
+    position: fixed;
+    right: 590px;
+} 
+
+.list{
+    display: table-row;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 12px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+
+
+li:last-child {
+    border-bottom: none;
+}
+
+
+@media only screen and (max-width:700px) {
+      .container{
+        max-width: 400px;
+      }
+
+      .area{
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 10px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  
+      #todo-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 500px;
+        max-width: 100%;
+      }
+  
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+  
+      li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        padding: 8px;
+      }
+  
+      button {
+        margin-left: 8px;
+        cursor: pointer;
+        background-color:  #4CAF50;
+      }
+  
+      h1{
+      background-color: pink;
+       }
+
+       #btn 
+      {
+            position: fixed;
+            right: 150px;
+      }
+
+      #btn1
+    {
+        position: fixed;
+        right: 240px;
+    }
+
+     #btn2
+    {
+        position: fixed;
+        right: 320px;
+    } 
+    
+}
+
+@media only screen and (min-width:701px) and (max-width:1250px){
+
+.container {
+        text-align: center;
+        max-width: 100%;
+        padding: 20px;
+}    
+
+#btn
+{
+    position: fixed;
+    right: 120px;
+}
+
+#btn1
+{
+    position: fixed;
+    right: 210px;
+}
+
+#btn2
+{
+    position: fixed;
+    right: 290px;
+} 
+    
+}
+
